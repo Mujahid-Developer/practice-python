@@ -1,3 +1,4 @@
+import math
 # String
 my_name = "mujahidul islam Munna"
 print(len(my_name))
@@ -28,3 +29,19 @@ print(10**3)
 x = 10
 x = x + 3
 x += 3
+
+# Working with numbers
+print(round(2.9))
+print(abs(-2.9))
+
+print(math.ceil(2.2))
+
+# Type Conversion
+x = input("x: ")
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
+
+# int(x)
+# float(x)
+# bool(x)
+# str(x)
